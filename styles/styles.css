@@ -1,11 +1,31 @@
+/* header */
 .adalab__header {
   background-color: white;
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .menu__list {
   display: flex;
   list-style: none;
+  margin: 10px auto;
+}
+.menu__buttom {
+  margin-right: 20px;
+}
+.logo-adalab {
+  margin-top: 10px;
+  width: 155px;
+}
+
+/* main */
+.adalab__main {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
