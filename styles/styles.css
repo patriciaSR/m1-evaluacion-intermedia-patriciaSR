@@ -1,16 +1,15 @@
-body {
+body, h1 {
   margin: 0;
   padding: 0;
   font-family: 'Rubik', sans-serif;
 }
 .container {
-  margin: 0 10px;
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100px;
 }
 /* header */
 .adalab__header {
@@ -20,20 +19,25 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
-}
+  height: 100px;
 
-.menu__list {
-  padding: 0;
-  display: flex;
-  list-style: none;
-  margin: 10px auto;
-}
-.menu__buttom {
-  margin-right: 20px;
 }
 .logo-adalab {
   margin-top: 10px;
   width: 155px;
+}
+.menu__list {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 13px auto;
+}
+.menu__buttom {
+  margin-right: 20px;
+}
+.menu__link {
+  color: #4a4a4a;
+  text-decoration: none;
 }
 
 /* @media header tablet */
@@ -49,14 +53,15 @@ body {
     width: 155px;
   }
   .menu__list {
-    margin-right: 30px;
+    margin-right: 20px;
+    font-size: 16px;
   }
 }
 
 /* main */
 .adalab__main {
   position: relative;
-  top: 113px;
+  top: 120px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -68,11 +73,16 @@ body {
 
 }
 
+
 /* @media main tablet */
 @media all and (min-width:768px) {
   .adalab__main {
    top: 95px;
+   font-size: 40px;
   }
-}
 
+.adalab-home__title  {
+  max-width: 45%;
+}
+}
 
