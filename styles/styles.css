@@ -11,6 +11,7 @@ body, h1 {
   align-items: center;
   width: 100%;
 }
+
 /* header */
 .adalab__header {
   background-color: white;
@@ -47,8 +48,7 @@ body, h1 {
     margin-left: auto 10px;
   }
   .logo-adalab {
-    margin: 20px 20px 30px;
-    width: 155px;
+    margin: 20px;
   }
   .menu__list {
     margin-right: 20px;
@@ -68,18 +68,16 @@ body, h1 {
   color: #FFFFFF;
   font-size: 30px;
   text-align: center;
-
 }
 
 /* @media main tablet */
 @media all and (min-width:768px) {
   .adalab__main {
-   top: 95px;
+   top: 105px;
    font-size: 40px;
   }
-
-.adalab-home__title  {
-  max-width: 45%;
-}
+  .adalab-home__title  {
+    max-width: 45%;
+  }
 }
 
